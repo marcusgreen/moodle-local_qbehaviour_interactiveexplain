@@ -1,8 +1,7 @@
-# autocomplete #
+# Question Behaviour Configuraiton #
 
-Demonstrating the use of the autocomplete form element
+Settings file for the interactiveexplain question behaviour.
+Necessary because quesiton behaviours do not read settings themselves.
 
-## License ##
-
-2019 Marcus Green
+2020 Marcus Green
 
