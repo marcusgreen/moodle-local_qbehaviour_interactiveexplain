@@ -37,7 +37,7 @@ if ($hassiteconfig) {
           get_string('useeditor_text', 'local_qbconfig'), 1));
   $settings->add(new admin_setting_configcheckbox('local_qbconfig/starthidden',
           get_string('starthidden', 'local_qbconfig'),
-          get_string('starthidden_text', 'local_qbconfig'), 0));
+          get_string('starthidden_text', 'local_qbconfig'), 1));
 
   $problemheader = get_string('problem_with_question_header','local_qbconfig');
   $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheader',
