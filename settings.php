@@ -13,7 +13,6 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
 /**
  * Plugin administration pages are defined here.
  *
@@ -39,17 +38,17 @@ if ($hassiteconfig) {
           get_string('starthidden', 'local_qbconfig'),
           get_string('starthidden_text', 'local_qbconfig'), 1));
 
-  $problemheader = get_string('problem_with_question_header','local_qbconfig');
+  $problemheader = get_string('problem_with_question_header', 'local_qbconfig');
   $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheader',
           get_string('header', 'local_qbconfig'),
           get_string('header_text', 'local_qbconfig'),
-          get_string('problem_with_question_header','local_qbconfig'), PARAM_RAW, 100, 2),$problemheader);
+          get_string('problem_with_question_header', 'local_qbconfig'), PARAM_RAW, 100, 2), $problemheader);
 
-  $problemheaderdetails = get_string('problem_with_question_header','local_qbconfig');
+  $problemheaderdetails = get_string('problem_with_question_header', 'local_qbconfig');
   $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheaderdetails',
           get_string('details', 'local_qbconfig'),
           get_string('details_text', 'local_qbconfig'),
-          get_string('problem_with_question_details','local_qbconfig'), PARAM_RAW, 100,2),$problemheaderdetails);
+          get_string('problem_with_question_details', 'local_qbconfig'), PARAM_RAW, 100, 2), $problemheaderdetails);
 
   }
       $ADMIN->add('localplugins', $settings);
