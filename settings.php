@@ -47,7 +47,7 @@ if ($hassiteconfig) {
           get_string('details', 'local_qbconfig'),
           get_string('details_text', 'local_qbconfig'),
           get_string('problem_with_question_details', 'local_qbconfig'), PARAM_RAW, 100, 2), $problemheaderdetails);
-  }
+    }
       $ADMIN->add('localplugins', $settings);
 
 }
