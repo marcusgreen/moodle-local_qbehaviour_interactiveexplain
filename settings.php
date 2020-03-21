@@ -29,28 +29,25 @@ if ($hassiteconfig) {
     'local_qbconfig', get_string('pluginname', 'local_qbconfig')
     );
     if ($ADMIN->fulltree) {
-
-
-      $settings->add(new admin_setting_configcheckbox('local_qbconfig/useeditor',
+        $settings->add(new admin_setting_configcheckbox('local_qbconfig/useeditor',
           get_string('useeditor', 'local_qbconfig'),
           get_string('useeditor_text', 'local_qbconfig'), 1));
-      $settings->add(new admin_setting_configcheckbox('local_qbconfig/starthidden',
+        $settings->add(new admin_setting_configcheckbox('local_qbconfig/starthidden',
           get_string('starthidden', 'local_qbconfig'),
           get_string('starthidden_text', 'local_qbconfig'), 1));
 
-      $problemheader = get_string('problem_with_question_header', 'local_qbconfig');
-      $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheader',
+        $problemheader = get_string('problem_with_question_header', 'local_qbconfig');
+        $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheader',
           get_string('header', 'local_qbconfig'),
           get_string('header_text', 'local_qbconfig'),
           get_string('problem_with_question_header', 'local_qbconfig'), PARAM_RAW, 100, 2), $problemheader);
 
-      $problemheaderdetails = get_string('problem_with_question_header', 'local_qbconfig');
-      $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheaderdetails',
+        $problemheaderdetails = get_string('problem_with_question_header', 'local_qbconfig');
+        $settings->add(new admin_setting_configtextarea('local_qbconfig/problemheaderdetails',
           get_string('details', 'local_qbconfig'),
           get_string('details_text', 'local_qbconfig'),
           get_string('problem_with_question_details', 'local_qbconfig'), PARAM_RAW, 100, 2), $problemheaderdetails);
-
-}
+  }
       $ADMIN->add('localplugins', $settings);
 
 }
