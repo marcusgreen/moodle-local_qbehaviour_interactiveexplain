@@ -17,15 +17,12 @@
 /**
  * Plugin strings are defined here.
  *
- * @package     local_extralib
- * @category    string
- * @copyright   2019 Titus Learning
+ * @package     local_qbconfig
+ * @copyright   Marcus Green 2020
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
-
-//admin/settings.php?section=local_qbconfig
 
 $string['pluginname'] = 'Question behaviour config';
 $string['useeditor'] = 'Use editor';
