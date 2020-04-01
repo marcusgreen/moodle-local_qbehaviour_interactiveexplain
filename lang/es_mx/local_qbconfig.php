@@ -24,14 +24,14 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$string['pluginname'] = 'Question behaviour config';
-$string['useeditor'] = 'Use editor';
-$string['useeditor_text'] = 'Turn on default html editor instead of plain text';
-$string['starthidden'] = 'Start hidden';
-$string['starthidden_text'] = 'The field is hidden at the start';
-$string['header'] = 'Header';
-$string['header_text'] = 'Header to student to give feedback';
-$string['details'] = 'Details';
-$string['details_text'] = 'Details to student to give feedback';
-$string['problem_with_question_header'] = 'Is there a problem with this question? Send feedback to your instructor here.';
-$string['problem_with_question_details'] = 'If you have feedback for this question, please type it below. The text will be sent to your instructor. You will be able to continue editing this when you have submitted your answer.';
+$string['pluginname'] = 'Configuración del comportamiento de pregunta';
+$string['useeditor'] = 'Usar editor';
+$string['useeditor_text'] = 'Activar editor HTML predeterminado en lugar de texto simple';
+$string['starthidden'] = 'Iniciar oculto';
+$string['starthidden_text'] = 'El campo está oculto al inicio';
+$string['header'] = 'Encabezado';
+$string['header_text'] = 'Encabezado al estudiante para darle retroalimentación';
+$string['details'] = 'Detalles';
+$string['details_text'] = 'Detalles al estudiante al darle retroalimentación';
+$string['problem_with_question_header'] = '¿Hay algún problema con esta pregunta? Enviar aquí retroalimentación a su instructor.';
+$string['problem_with_question_details'] = 'Si Usted tuviera retroalimentación para esta pregunta, por favor escríbala debajo. El texto será enviado a su instructor. Usted podrá continuar editando esto cuando haya  enviado su respuesta.';
