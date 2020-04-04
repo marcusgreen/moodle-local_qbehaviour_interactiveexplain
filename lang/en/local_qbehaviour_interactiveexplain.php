@@ -13,7 +13,6 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
 /**
  * Plugin strings are defined here.
  *
@@ -21,7 +20,6 @@
  * @copyright   Marcus Green 2020
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Question behaviour config';
@@ -35,6 +33,7 @@ $string['details'] = 'Details';
 $string['details_text'] = 'Details to student to give feedback';
 $string['problem_with_question_header'] = 'Is there a problem with this question? Send feedback to your instructor here.';
 $string['problem_with_question_details'] = 'If you have feedback for this question, please type it below. The text will be sent to your instructor. You will be able to continue editing this when you have submitted your answer.';
+$string['giveyourexplanation'] = 'Give your reasons';
 
 
 

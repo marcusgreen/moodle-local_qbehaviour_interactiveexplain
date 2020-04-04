@@ -40,13 +40,15 @@ if ($hassiteconfig) {
         $settings->add(new admin_setting_configtextarea('local_qbehaviour_interactiveexplain/problemheader',
           get_string('header', 'local_qbehaviour_interactiveexplain'),
           get_string('header_text', 'local_qbehaviour_interactiveexplain'),
-          get_string('problem_with_question_header', 'local_qbehaviour_interactiveexplain'), PARAM_RAW, 100, 2), $problemheader);
+          get_string('problem_with_question_header', 'local_qbehaviour_interactiveexplain'), PARAM_RAW, 100, 2),
+           $problemheader);
 
         $problemheaderdetails = get_string('problem_with_question_header', 'local_qbehaviour_interactiveexplain');
         $settings->add(new admin_setting_configtextarea('local_qbehaviour_interactiveexplain/problemheaderdetails',
           get_string('details', 'local_qbehaviour_interactiveexplain'),
           get_string('details_text', 'local_qbehaviour_interactiveexplain'),
-          get_string('problem_with_question_details', 'local_qbehaviour_interactiveexplain'), PARAM_RAW, 100, 2), $problemheaderdetails);
+          get_string('problem_with_question_details', 'local_qbehaviour_interactiveexplain'), PARAM_TEXT, 100, 2),
+           $problemheaderdetails);
     }
       $ADMIN->add('localplugins', $settings);
 
