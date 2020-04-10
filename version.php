@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_qbehaviour_interactiveexplain';
-$plugin->release = '0.1.0';
-$plugin->version = 2020040100;
+$plugin->release = '0.8.0';
+$plugin->version = 2020041000;
 $plugin->requires = 2018120300;
 $plugin->maturity = MATURITY_BETA;
