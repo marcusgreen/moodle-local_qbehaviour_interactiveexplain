@@ -9,5 +9,9 @@ Necessary because quesiton behaviours do not read settings themselves.
 Can be accessed directly via
 http://yourmoodle.org/admin/settings.php?section=local_qbehaviour_interactiveexplain
 
+To install this plugin you can do so directly as
+
+    git clone https://github.com/marcusgreen/moodle-local_qbehaviour_interactiveexplain local/qbehaviour_interactiveexplain
+
 2020 Marcus Green
 
