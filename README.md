@@ -2,6 +2,9 @@
 
 By Marcus Green. Contact Moodle Partner Titus Learning (http://www.tituslerning.com) for custom development and consultancy.
 
+Can be installed directly from https://moodle.org/plugins/qbehaviour_interactiveexplain
+through the Moodle plugins interface.
+
 Settings file for the interactiveexplain question behaviour.
 https://github.com/marcusgreen/moodle-qbehaviour_interactiveexplain
 Necessary because quesiton behaviours do not read settings themselves.
