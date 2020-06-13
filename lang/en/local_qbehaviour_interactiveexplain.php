@@ -35,3 +35,4 @@ $string['problem_with_question_header'] = 'Is there a problem with this question
 $string['problem_with_question_details'] = 'If you have feedback for this question, please type it below. The text will be sent to your instructor. You will be able to continue editing this when you have submitted your answer.';
 $string['giveyourexplanation'] = 'Give your reasons';
 $string['privacy:metadata'] = 'The Interactive with explanation question behaviour  settings plugin does not store any personal data.';
+$string['explanation'] = 'Explanation';
