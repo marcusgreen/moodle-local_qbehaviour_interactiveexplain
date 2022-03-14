@@ -17,7 +17,7 @@
  * Plugin strings are defined here.
  *
  * @package     local_qbehaviour_interactiveexplain
- * @copyright   Marcus Green 2020
+ * @copyright   Marcus Green 2022
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 defined('MOODLE_INTERNAL') || die();

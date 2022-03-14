@@ -19,14 +19,14 @@
  *
  * @package     local_qbehaviour_interactiveexplain
  *
- * @copyright   2020 Marcus Green
+ * @copyright   2022 Marcus Green
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'local_qbehaviour_interactiveexplain';
-$plugin->release = '0.9.0';
+$plugin->release = '1.0.0';
 $plugin->version = 2020061300;
 $plugin->requires = 2018120300;
 $plugin->maturity = MATURITY_STABLE;
