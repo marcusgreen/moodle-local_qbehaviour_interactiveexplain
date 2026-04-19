@@ -24,8 +24,6 @@
 
 namespace local_qbehaviour_interactiveexplain\privacy;
 
-defined('MOODLE_INTERNAL') || die();
-
 /**
  * Privacy Subsystem for local_qbehaviour_interactiveexplain implementing null_provider.
  *
@@ -33,7 +31,6 @@ defined('MOODLE_INTERNAL') || die();
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {
-
     /**
      *
      * Get the language string identifier with the component's language
@@ -41,7 +38,7 @@ class provider implements \core_privacy\local\metadata\null_provider {
      *
      * @return  string
      */
-    public static function get_reason() : string {
+    public static function get_reason(): string {
         return 'privacy:metadata';
     }
 }
